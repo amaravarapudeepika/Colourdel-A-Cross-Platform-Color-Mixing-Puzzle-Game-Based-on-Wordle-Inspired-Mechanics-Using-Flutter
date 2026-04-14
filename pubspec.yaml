@@ -1,0 +1,36 @@
+name: colourdel
+description: A colour-mixing puzzle game inspired by Wordle mechanics.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider:
+
+  # Persistence for streaks, coins, etc.
+  shared_preferences:
+
+  # Local SQLite database
+  sqflite:
+  path:
+
+  # Password hashing
+  crypto:
+
+  # Icons and material widgets
+  cupertino_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
